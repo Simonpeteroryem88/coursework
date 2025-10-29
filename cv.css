@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.cv-container {
+    max-width: 800px;
+    width: 100%;
+    background-color: lightblue;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(7, 250, 137, 0.1);
+    border-radius: 8px;
+    text-align: center; 
+    justify-content: center;
+    display: grid;
+}
+
+
+.profile-header .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+
+.profile-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 0;
+}
+
+
+section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #444;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left; 
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    justify-content: center;
+    display: flex;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #eee;
+    margin: 30px auto;
+    width: 80%;
+}
